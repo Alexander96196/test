@@ -1,0 +1,154 @@
+.content {
+  background-color: #ffffff;
+  padding-right: calc(50% - 760px);
+  padding-left: calc(50% - 760px);
+  padding-bottom: 80px;
+}
+
+.content__head {
+  margin-bottom: 60px;
+}
+
+.content__info {
+  padding: 0 280px;
+}
+
+.content__title {
+  text-align: center;
+  padding: 40px 0;
+  margin: 0;
+}
+
+.content__title-info {
+  margin-bottom: 40px;
+}
+
+.content__text {
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0 240px;
+  margin: 0 0 15px 0;
+}
+
+.content__text-question {
+  padding: 0 110px;
+}
+
+.content__table {
+  padding: 0 280px;
+}
+
+.table {
+  background-color: #f3dc0d;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.table td,
+.table th {
+  border: 1px solid #cc8d18;
+}
+
+.table__heading {
+  font-size: 20px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #cc8d18 !important;
+}
+
+.table td,
+.table th {
+  border: 1px solid #cc8d18;
+}
+
+.thead tr {
+  background-color: #cc8d18;
+}
+
+.table__column {
+  width: 470px !important;
+}
+
+.table__color {
+  background-color: #f7ad24;
+}
+
+.table__align {
+  font-weight: 700;
+  font-size: 12px;
+  text-align: center;
+}
+
+.table__heading-align {
+  text-align: center !important;
+}
+
+.table__price {
+  font-size: 18px;
+}
+
+.table__money {
+  font-size: 18px;
+}
+
+.card-title {
+  text-align: center;
+  font-weight: 700;
+}
+
+.card-subtitle {
+  color: #bebebe;
+}
+
+.card-text {
+  font-weight: 700;
+  height: 48px;
+}
+
+.card-body {
+  position: relative;
+  padding: 20px 80px !important;
+}
+
+.card-body:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.card-price-old {
+  font-size: 16px;
+  color: #bebebe;
+  text-align: center;
+}
+
+.card-price-old::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 2px;
+  bottom: 135px;
+  left: 145px;
+  transform: rotate(-15deg);
+  background-color: #cc0101;
+}
+
+.card-price-new {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.services__title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.btn-primary {
+  width: 100%;
+  background-color: #cc0101 !important;
+  border: #cc0101 !important;
+}
+
+.btn-primary:active,
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(250, 48, 48, 0.678) !important;
+}

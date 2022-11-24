@@ -1,0 +1,39 @@
+body {
+  font-weight: 400;
+  font-family: $first-font, sans-serif;
+  background-color: #000000 !important;
+}
+
+img {
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #171717;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: unset;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.text {
+  font-size: 18px;
+  color: #383737;
+}

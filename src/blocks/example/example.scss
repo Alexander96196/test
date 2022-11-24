@@ -1,0 +1,24 @@
+.example {
+  background-color: #ffffff;
+}
+
+.example__row {
+  align-items: center;
+}
+
+.example__title {
+  margin: 0 130px 50px 130px;
+}
+
+.example__img {
+  width: 280px;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.example__text {
+  font-size: 25px;
+  color: #575757;
+  padding: 0 175px 0 0;
+}
